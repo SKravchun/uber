@@ -1,0 +1,313 @@
+@media (max-width: 1200px)
+  header
+    .nav-head
+      .menu-head
+        .border
+          padding-right: 15px
+
+          &:last-child
+            padding-right: 0
+
+    .subheader
+      .logo, .official
+        margin-left: 99px
+        width: 230px
+
+      button
+        margin-left: 20px
+
+  .title
+    .row
+      h1
+        font-size: 50px
+
+  .reason
+    .reason-block
+      display: flex
+      align-items: flex-start
+
+      .reason-desc
+        width: 310px
+
+  .mobile
+    .container
+      .title-sec
+        font-size: 30px
+
+      .row
+        .mobile-item
+          height: 254px
+          width: 290px
+
+  footer
+    .footer-wrapper
+      .min-con
+        .footer-nav
+          max-width: 300px
+
+          .faq-first
+            display: flex
+            justify-content: space-evenly
+
+          .faq-second
+            display: flex
+            justify-content: space-evenly
+
+        .mobile-apps
+          .mobile-apps-item
+            img
+              width: 85px
+
+@media (max-width: 991px)
+
+  header
+    .nav-head
+      .menu-head
+        padding: 0
+
+        .border
+          padding-right: 10px
+
+          a
+            font-size: 13px
+
+    .subheader
+      .logo
+        margin-left: 30px
+
+        img
+          width: 200px
+
+      .official
+        font-size: 11px
+        margin-left: 30px
+
+      .row
+        .number
+          font-size: 20px
+
+  .title
+    padding: 180px 0 100px 0
+
+    .row
+      h1
+        font-size: 40px
+
+      h2
+        font-size: 30px
+
+      button
+        width: 240px
+        height: 60px
+        line-height: 60px
+        margin-top: 100px
+
+  .reason
+    .title-sec
+      font-size: 30px
+
+    .reason-block
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      .reason-img
+        margin-right: 0
+
+      .reason-desc
+        margin-top: 15px
+        //width: 310px
+        .reason-text, .reason-title
+          text-align: center
+
+  .choice
+    padding: 57px 0 90px 0
+
+    .container
+      .uberx
+        width: 100%
+
+      h2
+        font-size: 30px
+
+  .condition
+    .container
+      h2
+        font-size: 30px
+
+  .world
+    min-height: 517px
+
+    .container
+      .world-title
+        font-size: 30px
+
+  footer
+    .footer-wrapper
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      .min-con
+        width: 100%
+        display: flex
+        justify-content: center
+
+        &:nth-child(3)
+          display: flex
+          justify-content: center
+
+        .social-items
+          margin: 0
+
+        .footer-nav
+          .faq-first
+            margin-top: 10px
+
+          .faq-second
+            margin-top: 10px
+
+          .language
+            margin-top: 10px
+
+
+        .mobile-apps
+          margin: 0
+          margin-top: 10px
+
+@media (max-width: 767px)
+
+  header
+    .nav-head
+      .container
+        .menu-head
+          position: fixed
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          top: 0
+          left: -100%
+          width: 50%
+          height: 100vh
+          padding: 20px 15px
+          background-color: rgba(0, 0, 0, .8)
+          transition: 0.6s all
+
+        .menu-active
+          left: 0
+
+          .border
+            padding-right: 0
+            border: none
+            margin: 10px 0
+
+            a
+              font-size: 20px
+
+    .hamburger
+      display: block
+      position: absolute
+      right: 10px
+      top: 50%
+      transform: translateY(-50%)
+      width: 26px
+      height: 12px
+
+      span
+        display: block
+        height: 2px
+        width: 100%
+        background-color: #fff
+        margin-bottom: 2px
+        transition: 0.5s all
+
+      &-active
+        span
+          margin-bottom: -2px
+
+          &:nth-child(1)
+            transform: translateY(3px) rotate(-45deg)
+
+          &:nth-child(2)
+            display: none
+
+          &:nth-child(3)
+            transform: translateY(3px) rotate(45deg)
+
+
+    .subheader
+      .container
+        .row
+          .xs-hidden
+            display: none
+
+          .number
+            display: block
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+            margin: 0 auto
+            margin-top: -5px
+
+          .xs-visible
+              display: block
+
+          button
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+
+  .title
+    .row
+      h1
+        line-height: 40px
+
+      h2
+        line-height: 40px
+
+  .reason
+    .container
+      .title-sec
+        line-height: 40px
+
+  .choice
+    .container
+      .choice-order
+        text-align: center
+
+@media (max-width: 575px)
+
+  header
+    .subheader
+      height: 60px
+      padding-top: 11px
+
+      .container
+        .row
+          .official
+            display: none
+
+          .logo
+            margin-left: 0
+
+            img
+              max-width: 100%
+              margin-top: 7px
+
+          .number
+            font-size: 12px
+            margin-top: 0
+
+          button
+            display: block
+            width: 110px
+            height: 22px
+            margin-top: 6px
+            font-size: 10px
+
+
+
+
